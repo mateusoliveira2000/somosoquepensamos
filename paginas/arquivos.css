@@ -6,7 +6,7 @@ body {
 }
 
 #cont{
-    width: 90%; height: 2000px;
+    width: 90%; height: auto;
     margin-left: auto; margin-right: auto;
 }
 
@@ -98,7 +98,7 @@ body {
 
 
 #gravura {
-    width: 100%; height: 800px;
+    width: 100%; height: auto;
     display: grid; grid-template-columns: 30% 30% 30%;
     align-content: center;
     justify-content: center;
@@ -106,15 +106,17 @@ body {
 }
 .gr{
     width: 400px; height: 500px;
+    background-color: #ebdaa7;
     background-size: contain;
-    margin-left: auto; margin-right: auto;
+    background-repeat: no-repeat;
+    margin-left: auto; margin-right: auto; margin-top: 10%; margin-bottom: 10%; 
     border-radius: 10px;
     transition: transform 1s;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 .gr:hover{
     transition: 1s;
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 #g1{
     background-image: url(../Imagens/versão-pc/1.png);
@@ -125,6 +127,13 @@ body {
 #g3{
     background-image: url(../Imagens/versão-pc/3.png);
 }
+#g4{
+    background-image: url(../Imagens/versão-pc/4.png);
+}
+#g5{
+    background-image: url(../Imagens/versão-pc/5.png);
+}
+
 
 #pe {
     width: 95%; height: auto;
@@ -173,7 +182,7 @@ body {
 /* RESPOSIVIDADE */
 @media (max-width:1900px ){
     #cont {
-        width: 95%; height: 2700px;
+        width: 95%;
         margin-left: auto; margin-right: auto;
         align-content: center;
     }
@@ -234,7 +243,7 @@ body {
     
     
     #gravura {
-        width: 100%; height: 2000px;
+        width: 100%;
         display: inline-block;
         align-content: center;
         justify-content: center;
@@ -263,7 +272,16 @@ body {
         background-repeat: no-repeat;
         background-position: center;
     }
-    
+    #g4{
+        background-image: url(../Imagens/4-1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g5{
+        background-image: url(../Imagens/5-1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 
     .espaco{
         height: 30px;
@@ -338,7 +356,7 @@ body {
 
 @media (max-width:1080px ){
     #cont {
-        width: 95%; height: 3700px;
+        width: 95%; height: auto;
         margin-left: auto; margin-right: auto;
         align-content: center;
     }
@@ -461,6 +479,18 @@ body {
         background-repeat: no-repeat;
         background-position: center;
     }
+    #g4{
+        margin-left: auto; margin-right: auto;
+        background-image: url(../Imagens/4.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g5{
+        margin-left: auto; margin-right: auto;
+        background-image: url(../Imagens/5.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 
     
     #pe {
@@ -510,7 +540,7 @@ body {
 
 @media (max-width:860px ){
     #cont {
-        width: 95%; height: 2800px;
+        width: 95%;
         margin-left: auto; margin-right: auto;
         align-content: center;
     }
@@ -596,7 +626,7 @@ body {
     
 
     #gravura {
-        width: 100%; height: auto;
+        width: 100%;
 
         display: inline-block;
         align-content: center;
@@ -614,24 +644,6 @@ body {
     .gr:hover{
         transition: 1s;
         transform: scale(1.2);
-    }
-    #g1{
-        margin-left: auto; margin-right: auto;
-        background-image: url(../Imagens/1.png);
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #g2{
-        margin-left: auto; margin-right: auto;
-        background-image: url(../Imagens/2.png);
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #g3{
-        margin-left: auto; margin-right: auto;
-        background-image: url(../Imagens/3.png);
-        background-repeat: no-repeat;
-        background-position: center;
     }
 
 
@@ -682,7 +694,7 @@ body {
 
 @media (max-width:560px ){
     #cont {
-        width: 95%; height: 1900px;
+        width: 95%;
         margin-left: auto; margin-right: auto;
         align-content: center;
     }
@@ -769,7 +781,7 @@ body {
     
 
     #gravura {
-        width: 100%; height: auto;
+        width: 100%;
 
         display: inline-block;
         align-content: center;
@@ -787,24 +799,6 @@ body {
     .gr:hover{
         transition: 1s;
         transform: scale(1.2);
-    }
-    #g1{
-        margin-left: auto; margin-right: auto;
-        background-image: url(../Imagens/1.png);
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #g2{
-        margin-left: auto; margin-right: auto;
-        background-image: url(../Imagens/2.png);
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #g3{
-        margin-left: auto; margin-right: auto;
-        background-image: url(../Imagens/3.png);
-        background-repeat: no-repeat;
-        background-position: center;
     }
     
     #pe {
@@ -854,7 +848,7 @@ body {
 
 @media (max-width:360px ){
     #cont {
-        width: 95%; height: 1650px;
+        width: 95%;
         margin-left: auto; margin-right: auto;
         align-content: center;
     }
@@ -940,7 +934,7 @@ body {
     
     
     #gravura {
-        width: 100%; height: auto;
+        width: 100%;
 
         display: inline-block;
         align-content: center;
@@ -959,20 +953,6 @@ body {
         transition: 1s;
         transform: scale(1.2);
     }
-    #g1{
-        margin-left: auto; margin-right: auto;
-        background-image: url(../Imagens/1.png);
-    }
-    #g2{
-        margin-left: auto; margin-right: auto;
-        background-image: url(../Imagens/2.png);
-    }
-    #g3{
-        margin-left: auto; margin-right: auto;
-        background-image: url(../Imagens/3.png);
-    }
-    
-
     
     #pe {
         width: 95%; height: auto;
