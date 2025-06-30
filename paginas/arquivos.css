@@ -146,6 +146,33 @@ body {
 #g9{
     background-image: url(../Imagens/versão-pc/9.png);
 }
+#g10{
+    background-image: url(../Imagens/versão-pc/10.png);
+}
+#g11{
+    background-image: url(../Imagens/versão-pc/11.png);
+}
+#g12{
+    background-image: url(../Imagens/versão-pc/12.png);
+}
+#g13{
+    background-image: url(../Imagens/versão-pc/13.png);
+}
+#g14{
+    background-image: url(../Imagens/versão-pc/14.png);
+}
+#g15{
+    background-image: url(../Imagens/versão-pc/15.png);
+}
+#g16{
+    background-image: url(../Imagens/versão-pc/16.png);
+}
+#g17{
+    background-image: url(../Imagens/versão-pc/17.png);
+}
+#g18{
+    background-image: url(../Imagens/versão-pc/18.png);
+}
 
 
 #pe {
@@ -312,6 +339,51 @@ body {
     }
     #g9{
         background-image: url(../Imagens/9-1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g10{
+        background-image: url(../Imagens/10-1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g11{
+        background-image: url(../Imagens/11-1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g12{
+        background-image: url(../Imagens/12-1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g13{
+        background-image: url(../Imagens/13-1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g14{
+        background-image: url(../Imagens/14-1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g15{
+        background-image: url(../Imagens/15-1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g16{
+        background-image: url(../Imagens/16-1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g17{
+        background-image: url(../Imagens/17-1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g18{
+        background-image: url(../Imagens/18-1.png);
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -545,6 +617,60 @@ body {
     #g9{
         margin-left: auto; margin-right: auto;
         background-image: url(../Imagens/9.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g10{
+        margin-left: auto; margin-right: auto;
+        background-image: url(../Imagens/10.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g11{
+        margin-left: auto; margin-right: auto;
+        background-image: url(../Imagens/11.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g12{
+        margin-left: auto; margin-right: auto;
+        background-image: url(../Imagens/12.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g13{
+        margin-left: auto; margin-right: auto;
+        background-image: url(../Imagens/13.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g14{
+        margin-left: auto; margin-right: auto;
+        background-image: url(../Imagens/14.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g15{
+        margin-left: auto; margin-right: auto;
+        background-image: url(../Imagens/15.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g16{
+        margin-left: auto; margin-right: auto;
+        background-image: url(../Imagens/16.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g17{
+        margin-left: auto; margin-right: auto;
+        background-image: url(../Imagens/17.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #g18{
+        margin-left: auto; margin-right: auto;
+        background-image: url(../Imagens/18.png);
         background-repeat: no-repeat;
         background-position: center;
     }
